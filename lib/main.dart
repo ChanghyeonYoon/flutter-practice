@@ -4,9 +4,10 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(const MaterialApp(
       home: Scaffold(
-    backgroundColor: Colors.greenAccent,
+    // backgroundColor: Colors.greenAccent,
     body: GradientContainer(
-      colors: [Colors.white, Colors.blue],
+      Colors.white,
+      Colors.greenAccent,
     ),
   )));
 }
